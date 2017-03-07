@@ -1,0 +1,121 @@
+body{ 
+	padding: 10px;
+	background-color: #ccc;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#quote-container {
+	margin-top: 100px;
+	padding: 20px 60px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.quote {
+	position: relative;
+	text-align: center;
+}
+
+.quote-text {
+	visibility: hidden;
+	font-family: 'Pangolin', cursive;
+	font-size: 1.5em;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+	position: absolute;
+	font-size: 1.7em!important;
+}
+
+.fa-quote-left {
+	top: 0;
+	left: -40px;
+}
+
+.fa-quote-right {
+	right: -35px;
+	bottom: 0;
+}
+
+.author {
+	text-align: right;
+	font-weight: lighter;
+	color: #555;
+	visibility: hidden;
+	font-family: 'Raleway', sans-serif;
+}
+
+.user-controls {
+	position: relative;
+}
+
+.twitter {
+	display: inline-block;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color: #eee;
+	cursor:pointer;
+	font-family:Georgia;
+	font-size:16px;
+	padding: 10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	transition: all 0.1s ease-in-out;
+}
+
+.twitter:hover {
+	background-color:#d1584f;
+	color: white;
+}
+.twitter:active {
+	position:relative;
+	top:1px;
+}
+
+.fa-twitter {
+	font-size: 1.8em!important;
+}
+
+#new-quote {
+	float: right;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#eee;
+	font-family:Georgia;
+	font-size:16px;
+	padding:14px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	transition: all 0.1s ease-in-out;
+}
+#new-quote:hover {
+	background-color:#d1584f;
+	color: white;
+}
+#new-quote:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
